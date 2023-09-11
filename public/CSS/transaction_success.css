@@ -1,0 +1,73 @@
+.container-dashboard{
+
+    width: 50vw;
+    height: 85vh;
+    background: whitesmoke;
+    position: relative;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 7px;
+    margin-left: 170px;
+    
+}
+
+.container-dashboard .white-box-dashboard{
+    color: rgb(14, 3, 3);
+    position: relative;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.container-dashboard .white-box-dashboard .trans-text{
+    padding-top: 45px;
+    font-size: 35px;
+
+}
+
+.container-dashboard .white-box-dashboard .transaction-sucessful{
+    position: relative;
+    width: 20vw;
+    height: 40vh;
+    padding-top: 20px;
+}
+
+.container-dashboard .white-box-dashboard .trans-text-des{
+    margin-top: 40px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.ok-btn {
+    text-align: center;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    background: #1E1D40;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.history-btn {
+    text-align: center;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    background: #D75353;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #FFF;
+    margin-left: 20px;
+    font-weight: bold;
+}

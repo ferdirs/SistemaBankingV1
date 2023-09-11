@@ -1,0 +1,162 @@
+/* PERSONAL LOGIN PAGE */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-login .left-side{ 
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.logo-header .logo{
+    margin-top: 40px;
+    margin-left: 50px;
+    max-width: 13vw;
+}
+
+.illustration .illustration-login{
+    max-width: 35vw;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.main-login .right-side{
+    display: flex;
+    min-height: 100vh;
+    margin-left: 50vw;
+    width: 50vw;
+    height: 100vh;
+}
+
+.login-container{
+    display: flex;
+    justify-content: right;
+}
+
+.login-container .pink-box{
+    display: flex;
+    background-color: #E2BCAE;
+    width: 40vw;
+    height: 35vw;
+    border-radius: 30px;
+    margin-top: 20vh;
+    justify-content: center;
+}
+
+.pink-box .header-login{
+    font-size: larger;
+    padding-left: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.header-login .user-sign{
+    max-width: 25px;
+    margin: 5vh 10px 0px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.header-login .description-header{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.credential-user{
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 35vw;
+    height: 10%;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+
+.credential-user .input-box {
+    position: relative;
+    width: 10vw;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.input-box img{
+    max-width: 27px;
+    margin-top: 15px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box input{
+    width: 80%;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    justify-content: center;
+    align-content: center;
+    font-size: 14px;
+    padding: 10px 20px 10px 0;
+}
+
+.remember-forgot{
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+.remember-forgot a{
+    margin-left: 18vw;
+    color: #0047FF;
+}
+
+.business{
+    margin-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.business-login{
+    margin-bottom: 30px;
+}
+
+.business-login h3{
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.business-login img{
+    max-width: 30px;
+    margin: 0vh 10px 0px 0px;
+}
+
+.button{
+    margin-top: 60px;
+    padding-left: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.button .btn{
+    text-align: center;
+    justify-content: center;
+    width: 22%;
+    height: 35px;
+    background: #1E1D40;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #FAFAFA;
+}

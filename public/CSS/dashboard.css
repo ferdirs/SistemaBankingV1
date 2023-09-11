@@ -1,0 +1,135 @@
+.text-dashboard .trans-text{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.text-dashboard .trans-text-des{
+    margin: 50px;
+    text-align: left;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.white-box-dashboard{
+    width: 40vw;
+    height: 18vh;
+    background: whitesmoke;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 3px 5px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.white-box-dashboard .details{
+    margin: 30px;
+    padding-left: 20px;
+}
+
+.white-box-dashboard .details-balance{
+    font-size: larger;
+    text-align: left;
+    font-weight: 600;
+}
+
+.white-box-dashboard .details-amount{
+    padding-top: 10px;
+    font-weight: 500;
+
+}
+
+.white-box-dashboard .img-coins{
+    width: 6vw;
+    height: 9vh;
+    padding-top: 35px;
+    padding-left: 125px;
+    
+}
+
+.img-dash{
+    position: absolute;
+    width: 27vw;
+    height: 57vh;
+    left: 920px;
+    top: 240Px;
+}
+
+.list-view{
+    margin-top: 35px;
+    width: 40vw;
+    height: 27.6vh;
+    background: whitesmoke;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 3px 5px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+
+}
+
+.list-details{
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-left: 0px;
+    border-radius: 20px;
+    
+}
+
+.list-details .title{
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    
+}
+
+.list-details ul{
+    position: relative;
+
+}
+
+.list-details ul li{
+    list-style: none;
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+.list-details ul li:hover{
+    transform: scale(1.1);
+    z-index: 100;
+    background: whitesmoke;
+}
+
+/* profile */
+
+.profile .profile-1{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 20px;
+
+}
+
+.profile-1 .img-1{
+    background-position: left;
+    left: 0px;
+}
+
+.contain-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+}
+
